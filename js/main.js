@@ -33,6 +33,10 @@ function reverseString(str) {
   //#endregion string Manipulation
 
 //#region Array Functions
+function minMax(arr) {
+	arr.sort((a, b) => a - b); 
+    return [arr[0], arr[arr.length-1]]
+}
 
 function sumArray(numbers) {
   let sum = 0; 
